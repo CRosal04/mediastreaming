@@ -1,9 +1,11 @@
+/*text*/
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 html{
     background-color: #020659;
 }
+/*scroll*/
 .scroll{
     display: flex;
     grid-template-columns: repeat(5,1fr);
@@ -21,6 +23,31 @@ html{
     padding: 5px;
     height: 50px;
     width: 350px;
+
+}
+#TrendingSongs ::-webkit-scrollbar {
+
+}
+#TrendingSongs::-webkit-scrollbar-track {
+
+}
+#TrendingSongs::-webkit-scrollbar-thumb {
+
+}
+#TrendingSongs ::-webkit-scrollbar-thumb:hover {
+
+}
+#playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar {
+
+}
+#playlists ::-webkit-scrollbar-track, #curated ::-webkit-scrollbar-track  {
+
+}
+#playlists ::-webkit-scrollbar-thumb, #curated ::-webkit-scrollbar-thumb {
+
+}
+#playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
+
 }
 dl{
     display: flex;
