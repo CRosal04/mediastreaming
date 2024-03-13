@@ -11,7 +11,9 @@ p, dl, dd {
 footer p {
     font-size: .75em;
 }
-
+header{
+    background-color:#030A8C;
+}
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #020659;
