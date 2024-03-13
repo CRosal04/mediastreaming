@@ -1,7 +1,12 @@
 html{
     background-color: #020659;
 }
-
+.scroll{
+    display: flex;
+    grid-template-columns: repeat(5,1fr);
+    overflow-x: auto;
+    overflow-y: hidden;
+}
 
 @media screen and  (min-width:375px){
     body{
