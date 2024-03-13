@@ -22,6 +22,17 @@ html{
     height: 50px;
     width: 350px;
 }
+dl{
+    display: flex;
+}
+dt{
+    padding: 5px;
+}
+audio{
+    position: absolute;
+    bottom: 150px;
+    left: 5px;
+}
 @media screen and  (min-width:375px){
     body{
         margin: 0 auto;
