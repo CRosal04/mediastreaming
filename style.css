@@ -11,7 +11,10 @@ html{
     margin: 10px;
     position:relative ;
 }
-
+.scroll div{
+    position: absolute;
+    top: 251px;
+}
 @media screen and  (min-width:375px){
     body{
         margin: 0 auto;
