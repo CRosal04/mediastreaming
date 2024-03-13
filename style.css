@@ -92,7 +92,7 @@ audio{
     bottom: 150px;
     left: 5px;
 }
-@media screen and  (min-width:375px){
+/*@media screen and  (min-width:375px){
     body{
         margin: 0 auto;
         display:center;
