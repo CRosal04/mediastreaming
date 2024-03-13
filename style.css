@@ -45,23 +45,26 @@ width: 15px;
     box-shadow: inset 0 0 15 #590242;
 }
 #TrendingSongs::-webkit-scrollbar-thumb {
-
+background: #590242;
+border-radius: 5px;
 }
 #TrendingSongs ::-webkit-scrollbar-thumb:hover {
-
+background: #020659;
 }
 #Your-Playlists ::-webkit-scrollbar, #Curated-Playlists::-webkit-scrollbar {
-
+    width: 15px;
 }
 #Your-Playlists ::-webkit-scrollbar-track, #Curated-Playlists ::-webkit-scrollbar-track  {
-
+  box-shadow: inset 0 0 15px #020659;
 }
-#Your-Playlists ::-webkit-scrollbar-thumb, #cCurated-Playlists::-webkit-scrollbar-thumb {
-
+#Your-Playlists ::-webkit-scrollbar-thumb, #Curated-Playlists::-webkit-scrollbar-thumb {
+    background: #020659;
+    border-radius: 5px;
 }
 #Your-Playlists ::-webkit-scrollbar-thumb:hover, #Curated-Playlists ::-webkit-scrollbar-thumb:hover {
-
+background: #ffffff;
 }
+
 dl{
     display: flex;
 }
