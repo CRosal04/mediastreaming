@@ -26,7 +26,7 @@ html{
 
 }
 #TrendingSongs ::-webkit-scrollbar {
-box-shadow: insert 0 0;
+box-shadow: insert 0 0 15 #590242;
 }
 #TrendingSongs::-webkit-scrollbar-track {
 
