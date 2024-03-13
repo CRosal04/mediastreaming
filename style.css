@@ -26,7 +26,7 @@ html{
 
 }
 #TrendingSongs ::-webkit-scrollbar {
-
+box-shadow: insert 0 0;
 }
 #TrendingSongs::-webkit-scrollbar-track {
 
@@ -37,16 +37,16 @@ html{
 #TrendingSongs ::-webkit-scrollbar-thumb:hover {
 
 }
-#playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar {
+#Your-Playlists ::-webkit-scrollbar, #Curated-Playlists::-webkit-scrollbar {
 
 }
-#playlists ::-webkit-scrollbar-track, #curated ::-webkit-scrollbar-track  {
+#Your-Playlists ::-webkit-scrollbar-track, #Curated-Playlists ::-webkit-scrollbar-track  {
 
 }
-#playlists ::-webkit-scrollbar-thumb, #curated ::-webkit-scrollbar-thumb {
+#Your-Playlists ::-webkit-scrollbar-thumb, #cCurated-Playlists::-webkit-scrollbar-thumb {
 
 }
-#playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
+#Your-Playlists ::-webkit-scrollbar-thumb:hover, #Curated-Playlists ::-webkit-scrollbar-thumb:hover {
 
 }
 dl{
