@@ -37,7 +37,7 @@ audio::-webkit-media-controls-mute-button {
     background-color: rgba(255,255,255,.5);
     }
 
-/*scroll*/
+/*scroll
 .scroll{
     display: flex;
     grid-template-columns: repeat(5,1fr);
@@ -85,7 +85,7 @@ background: #020659;
 #Your-Playlists ::-webkit-scrollbar-thumb:hover, #Curated-Playlists ::-webkit-scrollbar-thumb:hover {
 background: #ffffff;
 }
-
+*/
 dl{
     display: flex;
 }
