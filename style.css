@@ -1,13 +1,22 @@
 /*text*/
-
+ul,h1,p{
+    color: #ffffff;
+}
+h2{
+    color: #590242;
+}
 h1{
     font-size:1.25em;
+    
 }
 h2, h3 {
     font-size: 1em;
+
 }
 p, dl, dd {
     font-size: 1em;
+    font-size: .75em;
+
 }
 footer p {
     font-size: .75em;
@@ -17,10 +26,15 @@ header{
 }
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #020659;
+    background-color: #ffffff;
 }
+
+
 html{
     background-color: #020659;
+}
+#SmoothJazz{
+    background-color: #2104d9;
 }
 /*Audio*/
 audio::-webkit-media-controls-mute-button {
@@ -92,11 +106,11 @@ dl{
 dt{
     padding: 5px;
 }
-audio{
+/*audio{
     position: absolute;
     bottom: 150px;
     left: 5px;
-}
+}*/
 
 @media screen and  (min-width:375px){
     body{
