@@ -22,10 +22,8 @@ body{
 html{
     background-color: #020659;
 }
-#trendingsongs{
-    background-color: #ffffff;
-}
-/*scroll
+
+/*scroll*/
 .scroll{
     display: flex;
     grid-template-columns: repeat(5,1fr);
@@ -84,7 +82,7 @@ background: #020659;
 #Your-Playlists ::-webkit-scrollbar-thumb:hover, #Curated-Playlists ::-webkit-scrollbar-thumb:hover {
 background: #ffffff;
 }
-*/
+
 dl{
     display: flex;
 }
