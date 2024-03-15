@@ -22,6 +22,20 @@ body{
 html{
     background-color: #020659;
 }
+/*Audio*/
+audio::-webkit-media-controls-mute-button {
+    background-color: #ffffff;
+    border-radius: 50%;
+    
+    }
+    audio::-webkit-media-controls-play-button {
+        background-color: #ffffff;
+        border-radius: 50%;
+        
+    }
+    audio::-webkit-media-controls-enclosure {
+    background-color: rgba(255,255,255,.5);
+    }
 
 /*scroll*/
 .scroll{
@@ -43,19 +57,8 @@ html{
     width: 350px;
 
 }
-audio::-webkit-media-controls-mute-button {
-background-color: #ffffff;
-border-radius: 50%;
 
-}
-audio::-webkit-media-controls-play-button {
-    background-color: #ffffff;
-    border-radius: 50%;
-    
-}
-audio::-webkit-media-controls-enclosure {
-background-color: rgba(255,255,255,.5);
-}
+
 #TrendingSongs ::-webkit-scrollbar {
 width: 15px;
 }
