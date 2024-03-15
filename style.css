@@ -22,7 +22,7 @@ body{
 html{
     background-color: #020659;
 }
-/*scroll*/
+/*scroll
 .scroll{
     display: flex;
     grid-template-columns: repeat(5,1fr);
@@ -93,6 +93,7 @@ audio{
     bottom: 150px;
     left: 5px;
 }
+*/
 @media screen and  (min-width:375px){
     body{
         margin: 0 auto;
