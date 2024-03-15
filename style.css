@@ -81,7 +81,7 @@ background: #020659;
 #Your-Playlists ::-webkit-scrollbar-thumb:hover, #Curated-Playlists ::-webkit-scrollbar-thumb:hover {
 background: #ffffff;
 }
-
+*/
 dl{
     display: flex;
 }
@@ -93,7 +93,7 @@ audio{
     bottom: 150px;
     left: 5px;
 }
-*/
+
 @media screen and  (min-width:375px){
     body{
         margin: 0 auto;
