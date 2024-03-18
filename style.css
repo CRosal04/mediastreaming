@@ -63,6 +63,8 @@ dt{
     display: block;
     text-align:center;
     margin: 10px 0 30px 32px;
+    position: static;
+    
 }
 #more:hover{
     background: #020659;
