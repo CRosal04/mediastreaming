@@ -40,6 +40,7 @@ body{
 
 html{
     background-color: #020659;
+    margin:10px;
 }
 #SmoothJazz{
     background-image:linear-gradient(to right,#2104d9,#020659) ;
@@ -53,14 +54,28 @@ dl{
 dt{
     padding: 5px;
 }
-/* your playlist part*/
+/* your playlist and curated part*/
 #Your-Playlists{
     background-color: #0d8dfb;
+    padding: 10px;
 
 }
 #Curated-Playlists{
-    background-color: #020659;
+    background-color: #030A8c;
 }
+.best-2020,.Pumpkin-Spice, .Quiet-Storm, .Smooth-Jazz,.Smooth-Study  {
+    background-color: #2699fb;
+    margin: 20px;
+    padding: 5px;
+}
+.Boozy-Brunch,.Dinner-Party,.Mellow,.Jazz-and-Chill,.Jazz-Saxophone{
+    background-color:#020873;
+    margin: 20px;
+    padding: 5px;
+}
+
+
+/*bottons*/
 #more{
     text-transform: none;
     text-decoration: none;
@@ -100,7 +115,7 @@ audio{
     left: 5px;
 }
 
-
+/*
 .scroll{
     display: flex;
     grid-template-columns: repeat(5,1fr);
@@ -120,7 +135,7 @@ audio{
     width: 350px;
 
 }
-
+/*
 #TrendingSongs ::-webkit-scrollbar {
 width: 15px;
 }
@@ -148,7 +163,7 @@ background: #020659;
 #Your-Playlists ::-webkit-scrollbar-thumb:hover, #Curated-Playlists ::-webkit-scrollbar-thumb:hover {
 background: #ffffff;
 }
-
+*/
 @media screen and  (min-width:375px){
     body{
         margin: 0 auto;
