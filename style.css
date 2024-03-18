@@ -10,11 +10,11 @@ h1{
     line-height: 2em;
 }
 h2, h3 {
-    font-size: 1em;
+font-size: 1em;
 color: #590242;
 line-height: 2em;
 }
-h1,h2{
+h1,h2,h3{
     font-weight: bold;
     text-transform: uppercase;
 
@@ -54,6 +54,7 @@ dt{
     padding: 5px;
 }
 #more{
+    text-transform: none;
     text-decoration: none;
     background-color:#590242;
     color:#ffffff;
@@ -111,7 +112,10 @@ audio{
     width: 350px;
 
 }
-
+/* your playlist part*/
+ .best-2020{
+    background: #0d8dfb;
+}
 #TrendingSongs ::-webkit-scrollbar {
 width: 15px;
 }
