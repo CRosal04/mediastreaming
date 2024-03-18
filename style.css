@@ -7,10 +7,16 @@ h2,dl{
 }
 h1{
     font-size:1.25em;
-    
+    line-height: 2em;
 }
 h2, h3 {
     font-size: 1em;
+color: #590242;
+line-height: 2em;
+}
+h1,h2{
+    font-weight: bold;
+    text-transform: uppercase;
 
 }
 p, dl, dd {
