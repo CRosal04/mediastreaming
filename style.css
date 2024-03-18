@@ -53,6 +53,14 @@ dl{
 dt{
     padding: 5px;
 }
+/* your playlist part*/
+#Your-Playlists{
+    background-color: #0d8dfb;
+
+}
+#Curated-Playlists{
+    background-color: #020659;
+}
 #more{
     text-transform: none;
     text-decoration: none;
@@ -112,10 +120,7 @@ audio{
     width: 350px;
 
 }
-/* your playlist part*/
- .best-2020{
-    background: #0d8dfb;
-}
+
 #TrendingSongs ::-webkit-scrollbar {
 width: 15px;
 }
@@ -129,6 +134,7 @@ border-radius: 5px;
 #TrendingSongs ::-webkit-scrollbar-thumb:hover {
 background: #020659;
 }
+
 #Your-Playlists ::-webkit-scrollbar, #Curated-Playlists::-webkit-scrollbar {
     width: 15px;
 }
