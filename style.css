@@ -34,11 +34,32 @@ html{
     background-color: #020659;
 }
 #SmoothJazz{
-    background-color: #2104d9;
+    background-image:linear-gradient(to right,#2104d9,#020659) ;
 }
 li{
     color:#ffffff;
 }
+dl{
+    display: flex;
+}
+dt{
+    padding: 5px;
+}
+#more{
+    text-decoration: none;
+    background-color:#590242;
+    color:#ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    width:150px;
+    display: block;
+    text-align:center;
+    margin: 10px 0 30px 32px;
+}
+#more:hover{
+    background: #020659;
+}
+
 /*Audio*/
 audio::-webkit-media-controls-mute-button {
     background-color: #ffffff;
@@ -53,8 +74,14 @@ audio::-webkit-media-controls-mute-button {
     audio::-webkit-media-controls-enclosure {
     background-color: rgba(255,255,255,.5);
     }
+    /*
+audio{
+    position: absolute;
+    bottom: 150px;
+    left: 5px;
+}
 
-/*scroll
+
 .scroll{
     display: flex;
     grid-template-columns: repeat(5,1fr);
@@ -74,8 +101,7 @@ audio::-webkit-media-controls-mute-button {
     width: 350px;
 
 }
-
-
+*/
 #TrendingSongs ::-webkit-scrollbar {
 width: 15px;
 }
@@ -102,18 +128,6 @@ background: #020659;
 #Your-Playlists ::-webkit-scrollbar-thumb:hover, #Curated-Playlists ::-webkit-scrollbar-thumb:hover {
 background: #ffffff;
 }
-*/
-dl{
-    display: flex;
-}
-dt{
-    padding: 5px;
-}
-/*audio{
-    position: absolute;
-    bottom: 150px;
-    left: 5px;
-}*/
 
 @media screen and  (min-width:375px){
     body{
