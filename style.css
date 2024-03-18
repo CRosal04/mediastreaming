@@ -67,13 +67,17 @@ dt{
     background-color: #2699fb;
     margin: 20px;
     padding: 5px;
+    color: #ffffff;
 }
 .Boozy-Brunch,.Dinner-Party,.Mellow,.Jazz-and-Chill,.Jazz-Saxophone{
     background-color:#020873;
     margin: 20px;
     padding: 5px;
+    color:#ffffff;
 }
-
+.best-2020 dl,.Pumpkin-Spice dl, .Quiet-Storm dl, .Smooth-Jazz dl,.Smooth-Study dl {
+    color:#ffffff;
+}
 
 /*bottons*/
 #more{
