@@ -36,6 +36,9 @@ html{
 #SmoothJazz{
     background-color: #2104d9;
 }
+li{
+    color:#ffffff;
+}
 /*Audio*/
 audio::-webkit-media-controls-mute-button {
     background-color: #ffffff;
