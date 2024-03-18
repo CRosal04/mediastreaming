@@ -26,6 +26,8 @@ p, dl, dd {
 }
 footer p {
     font-size: .75em;
+    color: #590242;
+    display: center;
 }
 header{
     background-color:#030A8C;
