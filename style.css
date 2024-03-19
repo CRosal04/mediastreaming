@@ -30,7 +30,10 @@ footer p {
     display: center;
 }
 header{
+    margin-top: 45px;
     background-color:#030A8C;
+    padding: 20px;
+    padding-bottom: 20px 
 }
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -51,8 +54,45 @@ li{
 dl{
     display: flex;
 }
-dt{
-    padding: 5px;
+
+
+/*nav*/
+
+nav ul {
+    text-align: center;
+}
+nav h2 {
+    visibility: hidden;
+    height: 1px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #2104D9;
+    max-height: 0;
+    
+}
+li a {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+[href="#home"] {
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 90px;
+    padding: 2px 5px;
+}
+a:hover, input:hover {
+    background-color: #590242;
 }
 /* your playlist and curated part*/
 #Your-Playlists{
@@ -75,8 +115,16 @@ dt{
     padding: 5px;
     color:#ffffff;
 }
-.best-2020 dl,.Pumpkin-Spice dl, .Quiet-Storm dl, .Smooth-Jazz dl,.Smooth-Study dl {
+.best-2020 h3,.Pumpkin-Spice h3 , .Quiet-Storm h3 , .Smooth-Jazz h3,.Smooth-Study h3,.Boozy-Brunch h3,.Dinner-Party h3,.Mellow h3,.Jazz-and-Chill h3,.Jazz-Saxophone h3{
+    text-align:center;
     color:#ffffff;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 /*bottons*/
@@ -119,7 +167,7 @@ audio{
     left: 5px;
 }
 
-/*
+/*Scroll*/
 .scroll{
     display: flex;
     grid-template-columns: repeat(5,1fr);
@@ -130,6 +178,7 @@ audio{
     margin: 10px;
     position:relative ;
 }
+
 .scroll div{
     position: absolute;
     top: 251px;
@@ -139,7 +188,7 @@ audio{
     width: 350px;
 
 }
-/*
+
 #TrendingSongs ::-webkit-scrollbar {
 width: 15px;
 }
@@ -167,13 +216,23 @@ background: #020659;
 #Your-Playlists ::-webkit-scrollbar-thumb:hover, #Curated-Playlists ::-webkit-scrollbar-thumb:hover {
 background: #ffffff;
 }
-*/
+
 @media screen and  (min-width:375px){
     body{
         margin: 0 auto;
         display:center;
     }
     
+}
+/*nav*/
+nav {
+    width: 575px;
+    background-color: #030A8C;
+    position: absolute;
+    top: 0;
+    z-index:1;
+    text-transform: uppercase;
+    margin: 0;
 }
 ul {
     overflow: hidden;
@@ -230,16 +289,30 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 }
 
 @media screen and (min-width:834px) {
+    body {
+        width: 834px;
+    }
+    nav {
+        width: 834px;
+    }
+    #more{
+        position: relative;
+        left: 550px;
+    }
     ul {
         overflow: visible;
         position: absolute;
         top: 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    }
+    li a{
+        padding: 10px;
     }
     label span, input {
         display: none;
     }
+    [href="#home"] {
+        position: static;
 }
-
-
