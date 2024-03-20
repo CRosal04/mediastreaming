@@ -36,8 +36,11 @@ header{
     padding-bottom: 20px 
 }
 body{
+    margin: 0 auto;
+    display:center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #ffffff;
+    
 }
 
 
@@ -57,7 +60,20 @@ dl{
 
 
 /*nav*/
-
+nav {
+    width: 575px;
+    background-color: #030A8C;
+    position: absolute;
+    top: 0;
+    z-index:1;
+    text-transform: uppercase;
+    margin: 0;
+}
+ul {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
 nav ul {
     text-align: center;
 }
@@ -216,29 +232,7 @@ background: #020659;
 #Your-Playlists ::-webkit-scrollbar-thumb:hover, #Curated-Playlists ::-webkit-scrollbar-thumb:hover {
 background: #ffffff;
 }
-
-@media screen and  (min-width:375px){
-    body{
-        margin: 0 auto;
-        display:center;
-    }
-    
-}
-/*nav*/
-nav {
-    width: 575px;
-    background-color: #030A8C;
-    position: absolute;
-    top: 0;
-    z-index:1;
-    text-transform: uppercase;
-    margin: 0;
-}
-ul {
-    overflow: hidden;
-    max-height: 0;
-    transition: max-height .2s ease-out;
-}
+/*Label*/
 label {
     cursor: pointer;
     display: inline-block;
@@ -297,7 +291,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     }
     #more{
         position: relative;
-        left: 550px;
+        left: 200px;
     }
     ul {
         overflow: visible;
@@ -316,5 +310,27 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     [href="#home"] {
         position: static;
 }
-
+#Your-Playlists .scroll, #Curated-Playlists .scroll {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: repeat(5, 1fr);
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 330px;
+}
+#Your-Playlists, #Curated-Playlists{
+    width: 417px;
+    clear: both;
+}
+#Your-Playlists img, #Curated-Playlistsimg {
+    float: left;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#TrendingSongs{
+    grid-column: 1/4;
+    height: auto;
+}
 }
