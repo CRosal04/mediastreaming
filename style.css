@@ -43,7 +43,7 @@ body{
     display:center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #ffffff;
-    width: 875px;
+    width: 375px;
     
 }
 
@@ -63,7 +63,7 @@ dl{
 
 /*nav*/
 nav {
-    width: 595px;
+    width: 375px;
     background-color: #030A8C;
     position: absolute;
     top: 0;
@@ -129,21 +129,18 @@ a:hover, input:hover {
     width: 89%;
     display:center;
 }
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 2px;
-    margin-inline-end: 2px;
+#Your-Playlists section{
+    background-color: #2699fb;
+    padding: 10px;
 }
-
+#Curated-Playlists section {
+    background-color: #020873;
+    padding: 8px;
+}
 #Your-Playlists h3, #Your-Playlists p, #Curated-Playlists h3, #Curated-Playlists p {
     text-align: center;
     padding: 5px;
     color:#ffffff ;
-}
-/*#Your-Playlists h3,#Curated-Playlists h3{
-
 }
 /*bottons*/
 #more{
@@ -282,14 +279,7 @@ input:checked ~ label span:after {
 input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
     top: 0;
 }
-#Your-Playlists .scroll, #Curated-Playlists .scroll {
-    display: grid;
-    grid-template-columns: 1fr; 
-    grid-template-rows: repeat(5, 1fr);
-    overflow-x: hidden;
-    overflow-y: auto;
-    height: 300px;
-}
+
 @media screen and (min-width:834px) {
     body {
         width: 834px;
@@ -299,7 +289,8 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     }
     #more{
         position: relative;
-        left: 150px;
+        float: right;
+        margin: 10px;
     }
 
     ul {
@@ -319,26 +310,25 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     [href="#home"] {
         position: static;
 }
-
+#Your-Playlists .scroll, #Curated-Playlists .scroll {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: repeat(5, 1fr);
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 300px;
+}
 #Your-Playlists, #Curated-Playlists{
     width: 409px;
     clear: both;
-    
 
 }
+
 #Your-Playlists img, #Curated-Playlists img {
     float: left;
     padding: 3px;
 }
-/* possible way to fix this section/ may have to use grid*/
-#Your-Playlists section{
-    background-color: #2699fb;
-    padding: 10px;
-}
-#Curated-Playlists section {
-    background-color: #020873;
-    padding: 8px;
-}
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
