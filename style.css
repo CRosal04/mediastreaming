@@ -27,13 +27,7 @@ dt{
     font-style:italic ;
 }
 
-footer small {
-    font-size: .75em;
-    color: #590242;
-    text-align: center;
-    background-color: aqua;
-    float: center;
-}
+
 header{
     margin-top: 45px;
     background-image:linear-gradient(to right,#2104d9,#020659) ;
@@ -62,7 +56,12 @@ dl{
 }
 
 
-
+footer  {
+    font-size: .75em;
+    color: #590242;
+    text-align: center;
+    padding: 5px;
+}
 /*nav*/
 nav {
     width: 375px;
