@@ -22,15 +22,17 @@ h1,h2,h3{
 
 p, dl, dd {
     font-size: 1em;
-    font-size: .75em;
-
+}
+dt{
+    font-style:italic ;
 }
 
 footer small {
     font-size: .75em;
     color: #590242;
     text-align: center;
-    padding: 20px;
+    background-color: aqua;
+    float: center;
 }
 header{
     margin-top: 45px;
