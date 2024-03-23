@@ -26,10 +26,11 @@ p, dl, dd {
 
 }
 
-footer p {
+footer small {
     font-size: .75em;
     color: #590242;
-    display: center;
+    text-align: center;
+    padding: 20px;
 }
 header{
     margin-top: 45px;
@@ -62,7 +63,7 @@ dl{
 
 /*nav*/
 nav {
-    width: 575px;
+    width: 595px;
     background-color: #030A8C;
     position: absolute;
     top: 0;
@@ -135,11 +136,15 @@ p {
     margin-inline-start: 2px;
     margin-inline-end: 2px;
 }
+
 #Your-Playlists h3, #Your-Playlists p, #Curated-Playlists h3, #Curated-Playlists p {
     text-align: center;
     padding: 5px;
+    color:#ffffff ;
 }
+/*#Your-Playlists h3,#Curated-Playlists h3{
 
+}
 /*bottons*/
 #more{
     text-transform: none;
@@ -323,7 +328,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 }
 #Your-Playlists img, #Curated-Playlists img {
     float: left;
-    padding: 40px;
+    padding: 3px;
 }
 /* possible way to fix this section/ may have to use grid*/
 #Your-Playlists section{
@@ -332,7 +337,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 }
 #Curated-Playlists section {
     background-color: #020873;
-    padding: 10px;
+    padding: 8px;
 }
 main {
     display: grid;
