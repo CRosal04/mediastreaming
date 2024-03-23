@@ -36,7 +36,6 @@ header{
 }
 body{
     margin: 0 auto;
-    display:center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #ffffff;
     width: 375px;
@@ -128,7 +127,6 @@ a:hover, input:hover {
     padding: 10px;
     position: relative;
     width: 89%;
-    display:center;
 }
 #Your-Playlists section{
     background-color: #2699fb;
