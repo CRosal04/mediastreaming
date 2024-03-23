@@ -19,11 +19,13 @@ h1,h2,h3{
     text-transform: uppercase;
 
 }
+
 p, dl, dd {
     font-size: 1em;
     font-size: .75em;
 
 }
+
 footer p {
     font-size: .75em;
     color: #590242;
@@ -40,13 +42,14 @@ body{
     display:center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #ffffff;
+    width: 875px;
     
 }
 
 
 html{
     background-color: #020659;
-    margin:10px;
+    margin: 10px;
 }
 #SmoothJazz{
     background-image:linear-gradient(to right,#2104d9,#020659) ;
@@ -58,6 +61,14 @@ dl{
     display: flex;
 }
 
+#Your-Playlists h2,#Curated-Playlists h2{
+    background-color: #ffffff;
+    margin-top: 4px;
+    padding: 20px;
+    position: relative;
+    width: 88%;
+    display:center;
+}
 
 /*nav*/
 nav {
@@ -113,22 +124,22 @@ a:hover, input:hover {
 /* your playlist and curated part*/
 #Your-Playlists{
     background-color: #0d8dfb;
-    padding: 10px;
 
 }
 #Curated-Playlists{
     background-color: #030A8c;
+      
 }
 .best-2020,.Pumpkin-Spice, .Quiet-Storm, .Smooth-Jazz,.Smooth-Study  {
     background-color: #2699fb;
-    margin: 20px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
     color: #ffffff;
 }
 .Boozy-Brunch,.Dinner-Party,.Mellow,.Jazz-and-Chill,.Jazz-Saxophone{
     background-color:#020873;
-    margin: 20px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
     color:#ffffff;
 }
 .best-2020 h3,.Pumpkin-Spice h3 , .Quiet-Storm h3 , .Smooth-Jazz h3,.Smooth-Study h3,.Boozy-Brunch h3,.Dinner-Party h3,.Mellow h3,.Jazz-and-Chill h3,.Jazz-Saxophone h3{
@@ -139,8 +150,12 @@ p {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+}
+#Your-Playlists h3, #Your-Playlists p, #Curated-Playlists h3, #Curated-Playlists p {
+    text-align: center;
+    padding: 5px;
 }
 
 /*bottons*/
@@ -154,7 +169,7 @@ p {
     width:150px;
     display: block;
     text-align:center;
-    margin: 10px 0 30px 32px;
+    margin: 10px 0 32px 32px;
     position: static;
     
 }
@@ -197,12 +212,11 @@ audio{
 
 .scroll div{
     position: absolute;
-    top: 251px;
+    top: 221px;
     background-color: rgba(255,255,255,.75);
     padding: 5px;
-    height: 50px;
-    width: 350px;
-
+    height: 100px;
+    width: 450px;
 }
 
 #TrendingSongs ::-webkit-scrollbar {
@@ -291,8 +305,9 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     }
     #more{
         position: relative;
-        left: 200px;
+        left: 150px;
     }
+
     ul {
         overflow: visible;
         position: absolute;
@@ -316,21 +331,23 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     grid-template-rows: repeat(5, 1fr);
     overflow-x: hidden;
     overflow-y: auto;
-    height: 330px;
+    height: 300px;
 }
 #Your-Playlists, #Curated-Playlists{
-    width: 417px;
+    width: 409px;
     clear: both;
+
 }
-#Your-Playlists img, #Curated-Playlistsimg {
+#Your-Playlists img, #Curated-Playlists img {
     float: left;
+    padding: 50px;
 }
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 #TrendingSongs{
-    grid-column: 1/4;
+    grid-column: 1/3;
     height: auto;
 }
 }
