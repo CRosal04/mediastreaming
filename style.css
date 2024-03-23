@@ -149,11 +149,11 @@ a:hover, input:hover {
     background-color:#590242;
     color:#ffffff;
     border-radius: 5px;
-    padding: 10px;
-    width:150px;
+    padding: 5px;
+    width:160px;
     display: block;
     text-align:center;
-    margin: 10px 0 32px 32px;
+    margin: 10px 0 30px 30px;
     position: static;
     
 }
@@ -291,6 +291,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
         position: relative;
         float: right;
         margin: 10px;
+        
     }
 
     ul {
