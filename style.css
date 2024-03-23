@@ -61,14 +61,7 @@ dl{
     display: flex;
 }
 
-#Your-Playlists h2,#Curated-Playlists h2{
-    background-color: #ffffff;
-    margin-top: 4px;
-    padding: 20px;
-    position: relative;
-    width: 88%;
-    display:center;
-}
+
 
 /*nav*/
 nav {
@@ -122,15 +115,24 @@ a:hover, input:hover {
     background-color: #590242;
 }
 /* your playlist and curated part*/
-#Your-Playlists{
+#Your-Playlists .scroll{
     background-color: #0d8dfb;
 
 }
-#Curated-Playlists{
+#Curated-Playlists .scroll{
     background-color: #030A8c;
       
 }
-.best-2020,.Pumpkin-Spice, .Quiet-Storm, .Smooth-Jazz,.Smooth-Study  {
+#Your-Playlists h2,#Curated-Playlists h2{
+
+    margin-top: 5px;
+    padding: 10px;
+    position: relative;
+    width: 89%;
+    display:center;
+}
+
+/*.best-2020,.Pumpkin-Spice, .Quiet-Storm, .Smooth-Jazz,.Smooth-Study  {
     background-color: #2699fb;
     margin: 10px;
     padding: 10px;
@@ -153,11 +155,11 @@ p {
     margin-inline-start: 2px;
     margin-inline-end: 2px;
 }
-#Your-Playlists h3, #Your-Playlists p, #Curated-Playlists h3, #Curated-Playlists p {
+/*#Your-Playlists h3, #Your-Playlists p, #Curated-Playlists h3, #Curated-Playlists p {
     text-align: center;
     padding: 5px;
 }
-
+*/
 /*bottons*/
 #more{
     text-transform: none;
@@ -222,10 +224,10 @@ audio{
 #TrendingSongs ::-webkit-scrollbar {
 width: 15px;
 }
-#TrendingSongs::-webkit-scrollbar-track {
+#TrendingSongs ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 15 #590242;
 }
-#TrendingSongs::-webkit-scrollbar-thumb {
+#TrendingSongs ::-webkit-scrollbar-thumb {
 background: #590242;
 border-radius: 5px;
 }
@@ -233,13 +235,13 @@ border-radius: 5px;
 background: #020659;
 }
 
-#Your-Playlists ::-webkit-scrollbar, #Curated-Playlists::-webkit-scrollbar {
+#Your-Playlists ::-webkit-scrollbar, #Curated-Playlists ::-webkit-scrollbar {
     width: 15px;
 }
 #Your-Playlists ::-webkit-scrollbar-track, #Curated-Playlists ::-webkit-scrollbar-track  {
   box-shadow: inset 0 0 15px #020659;
 }
-#Your-Playlists ::-webkit-scrollbar-thumb, #Curated-Playlists::-webkit-scrollbar-thumb {
+#Your-Playlists ::-webkit-scrollbar-thumb, #Curated-Playlists ::-webkit-scrollbar-thumb {
     background: #020659;
     border-radius: 5px;
 }
@@ -347,7 +349,7 @@ main {
     grid-template-columns: 1fr 1fr;
 }
 #TrendingSongs{
-    grid-column: 1/3;
+    grid-column: 1/4;
     height: auto;
 }
 }
